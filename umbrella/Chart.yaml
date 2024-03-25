@@ -1,0 +1,11 @@
+apiVersion: v2
+name: umbrella-example
+version: 1.0.0
+
+dependencies:
+- name: hello
+  version: 1.0.0
+  repository: "file://../hello"
+- name: hostinfo
+  version: 1.0.0
+  repository: "file://../hostinfo"
