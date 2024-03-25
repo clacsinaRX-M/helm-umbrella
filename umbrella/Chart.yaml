@@ -3,9 +3,9 @@ name: umbrella-example
 version: 1.0.0
 
 dependencies:
-- name: hello
+- name: hostinfo-2
   version: 1.0.0
-  repository: "file://../hello"
+  repository: "file://../hostinfo-2"
 - name: hostinfo
   version: 1.0.0
   repository: "file://../hostinfo"
