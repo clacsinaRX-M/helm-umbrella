@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: hostinfo
-  name: hostinfo
+  name: {{ .Release.Name }}-hostinfo
 spec:
   replicas: {{ .Values.replicas }}
   selector:
