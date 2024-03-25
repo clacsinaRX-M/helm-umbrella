@@ -16,7 +16,7 @@ spec:
         app: hostinfo
     spec:
       containers:
-      - image: rxmllc/hostinfo:v1-python
+      - image: rxmllc/hostinfo:python-otel
         name: hostinfo
         ports:
         - containerPort: 9898
