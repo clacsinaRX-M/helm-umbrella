@@ -1,7 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  creationTimestamp: null
   labels:
     app: hello
   name: hello
@@ -10,17 +9,12 @@ spec:
   selector:
     matchLabels:
       app: hello
-  strategy: {}
   template:
     metadata:
-      creationTimestamp: null
       labels:
         app: hello
     spec:
+      restartPolicy: Never
       containers:
       - image: rxmllc/hello
         name: hello
-        ports:
-        - containerPort: 9898
-        resources: {}
-status: {}
