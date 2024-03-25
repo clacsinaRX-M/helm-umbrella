@@ -20,3 +20,4 @@ spec:
         name: hostinfo
         ports:
         - containerPort: 9898
+          name: gethostinfo
